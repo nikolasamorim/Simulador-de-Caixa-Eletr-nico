@@ -1,0 +1,338 @@
+body{
+    color: #333333;
+    margin: 0px;
+    background-color: #958EE5;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #958EE5;
+}
+
+.box {
+    border-radius: 30px;
+    width: 40%;
+    height: 80%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 2px 2px 4px #333333;
+}
+
+.org-section{
+    display: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+
+.title{
+    color: #333333;
+    font-size: 250%;
+    font-family: Candara light ;
+}
+
+label {
+    padding: 5px;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.form-cad -i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-cad i{
+    margin-top: 60px;
+    margin-right: 5px;
+    cursor: text;
+}
+
+.form-cad select{
+    color: #000000;
+    border-color: #c2c2c2e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    width: 60%;
+    font-size: 16.8px;
+    transition: 0.2s;
+}
+
+.form-cad input{
+    color: #000000;
+    border-color: #c2c2c2e0;
+    font-family: sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    width: 60%;
+    font-size: 13.8px;
+    transition: 0.2s;
+}
+
+.form-cad input:hover{
+    border-radius: 2px;
+    text-decoration: none;
+    border-color: #c2c2c2e0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f1f1f1ec;
+}
+
+.top-section{
+    margin-top: 40px;
+}
+
+.saque-but{
+    text-decoration: none;
+    background-color: #958EE5;
+    font-family: Candara;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 16.8px;
+}
+
+.saque-but:hover{
+    text-decoration: none;
+    background-color: #736cc7;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    font-size: 16.8px;
+}
+
+.limpar-but{
+    text-decoration: none;
+    background-color: #464646;
+    font-family: Candara;
+    margin-left: 20px;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 16.8px;
+}
+
+.limpar-but:hover{
+    text-decoration: none;
+    background-color: #1d1d1d;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    font-size: 16.8px;
+}
+
+/* Saque.php */
+
+img{
+width: 150px;
+height: 75px;
+padding: 10px;
+}
+
+.um-real{
+width: 75px;
+height: 75px;
+padding: 10px;
+}
+
+
+/* Celular */
+@media (max-width: 990px) {
+
+    .container {
+        background-color: #958EE5;
+    }
+    .box {
+        width: 100%;
+        height: 100%;
+        background-color: #958EE5;
+        text-align: center;
+        transition: 0.5;
+        box-shadow: none;
+    }
+    .title{
+        color: #ffffff;
+        font-size: 8vw;
+        font-family: Candara light;
+    }
+
+    .org-section{
+        
+        overflow: hidden;
+        padding: 20px;
+    }
+    
+    .form-cad select{
+        border-radius: 2px 5px 2px;
+        color: #1d1d1d;
+        border-color: #ffffffe0;
+        background-color: #958EE5;
+        height: 4vh;
+        width: 45vh;
+        font-size: 2.7vw;
+        transition: 0.2s;
+        margin-bottom: 40px;
+    }
+
+    .form-cad label {
+        padding: 2vh;
+        padding-top: 12px;
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .form-cad input{
+        border-radius: 2px 5px 2px;
+        color: #1d1d1d;
+        border-color: #ffffffe0;
+        background-color: #958EE5;
+        height: 4vh;
+        width: 45vh;
+        font-size: 2.7vw;
+        transition: 0.2s;
+        margin-bottom: 40px;
+    }
+    
+    .form-cad input:hover{
+        border-radius: 2px 5px 2px;
+        text-decoration: none;
+        border-color: #ffffff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #aba5eb;
+    }
+    
+    
+    
+    .saque-but{
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        color: #333333;
+        height: 8vh;
+        width: 20vh;
+        font-size: 3vw;
+    }
+
+    .saque-but:hover{
+        text-decoration: none;
+        background-color: #f0f0f0;
+        border: none;
+        color: #333333;
+        box-shadow: none;
+        height: 8vh;
+        width: 20vh;
+        font-size: 3vw;
+    }
+    
+    .limpar-but{
+        border-radius: 4px;
+        background-color: #464646;
+        color: #ffffff;
+        height: 8vh;
+        width: 20vh;
+        font-size: 3vw;
+    }
+
+    .limpar-but:hover{
+        text-decoration: none;
+        background-color: #1d1d1d;
+        border: none;
+        color: #ffffff;
+        box-shadow: none;
+        height: 8vh;
+        width: 20vh;
+        font-size: 3vw;
+    }
+
+}
+
+/*@media (max-height: 650px;
+
+    .container {
+        background-color: #FD95A0;
+    }
+    .box {
+        width: 100%;
+        height: 100%;
+        background: #FD95A0;
+        text-align: center;
+        transition: 0.5;
+    }
+    .title{
+        color: #ffffff;
+        font-size: 250%;
+    }
+    
+    .form-cad select{
+        border-radius: 2px 5px 2px;
+        color: #ffffff;
+        border-color: #ffffffe0;
+        background-color: #FD95A0;
+        transition: 0.2s;
+    }
+
+    .form-cad label {
+        padding: 5px;
+        padding-top: 12px;
+        color: white;
+    }
+    
+    .form-cad input{
+        border-radius: 2px 5px 2px;
+        color: #ffffff;
+        border-color: #ffffffe0;
+        background-color: #FD95A0;
+        transition: 0.2s;
+    }
+    
+    .form-cad input:hover{
+        border-radius: 2px 5px 2px;
+        text-decoration: none;
+        border-color: #c2c2c2e0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #d8d8d8;
+    }
+    
+    
+    
+    .saque-but{
+        background-color: rgb(255, 255, 255);
+        color: #333333;
+
+    }
+    
+    .limpar-but{
+        background-color: rgb(211, 37, 37);
+        color: #ffffff;
+    }
+
+}
+
+
+
+
