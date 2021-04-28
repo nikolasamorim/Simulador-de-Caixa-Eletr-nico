@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c5163c8d04.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/money.png">
+    <meta charset="UTF-8">
+    <title>Caixa Eletrônico Virtual</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+<h1 class="title">Caixa Eletrônico <br><i class="fas fa-funnel-dollar"></i></h1>
+
+
+    <form class="form-cad" action="saque.php" method="post">
+         <select name="banco" id="banco" required>
+            <option value="">Selecione um banco </option>
+            <option value="caixa">Caixa Econômica Federal</option>
+            <option value="bradesco">Bradesco</option>
+            <option value="bancobrasil">Banco do Brasil</option>
+            <option value="nubank">Nubank</option>
+            <option value="itau">Itaú</option>
+
+        </select><br>
+
+        <i class="fas fa-credit-card"></i><input name="agencia" id="agencia" placeholder="Agência" required><br>
+        
+        <i class="fas fa-stamp"></i><input name="conta" id="conta" placeholder="Conta" required><br>
+
+        <i class="fas fa-donate"></i><input name="saque" id="saque" placeholder="Valor a Sacar" required>
+<div class="top-section">
+        <button type="submit" class="saque-but"><span class="fas fa-spinner"></span> Calcular</button>
+        <button type="reset" class="limpar-but"><span class="fas fa-times"></span> Limpar</button>
+        </div>
+    </form>
+    </section>
+    </div>
+</div>
+</body>
+</html>
